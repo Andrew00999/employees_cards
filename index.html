@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Video editors</title>
-  </head>
-  <body>
+    <title>Employees Cards</title>
+</head>
+
+<body>
     <div id="root">
-      <div class="container">
-        <div class="main_wrapper">
-          <div class="nav_line">
-            <div class="custom_select">
-              <div class="custom_select_wrapper">
-                <button class="custom_select_btn" type="button">
-                  Search...
-                </button>
-                <ul class="custom_list">
-                  <li class="custom_list-item" data-value="video-editor">
-                    Video editor
-                  </li>
-                  <li
-                    class="custom_list-item"
-                    data-value="lead-generation-manager"
-                  >
-                    Lead generation manager
-                  </li>
-                </ul>
-                <input
-                  class="hidden_input"
-                  type="text"
-                  name="hidden_input_data"
-                  hidden
-                />
-              </div>
+        <div class="container">
+            <div class="main_wrapper">
+                <div class="nav_line">
+                    <!-- <div class="custom_select">
+                        <div class="custom_select_wrapper">
+                            <button class="custom_select_btn" type="button">
+                                Search...
+                            </button>
+                            <ul class="custom_list">
+                                <li class="custom_list-item" data-value="video-editor">
+                                    Video editor
+                                </li>
+                                <li class="custom_list-item" data-value="lead-generation-manager">
+                                    Lead generation manager
+                                </li>
+                            </ul>
+                            <input class="hidden_input" type="text" name="hidden_input_data" hidden />
+                        </div>
+                    </div> -->
+                    <span class="material-symbols-outlined toggle_theme">
+                        dark_mode
+                    </span>
+                </div>
+                <div class="cards_wrapper"></div>
             </div>
-            <span class="material-symbols-outlined toggle_theme">
-              dark_mode
-            </span>
-          </div>
-          <div class="cards_wrapper"></div>
         </div>
-      </div>
     </div>
     <script src="js/index.js"></script>
-  </body>
+</body>
+
 </html>
